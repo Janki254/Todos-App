@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List</title>
+        <link rel="stylesheet" href="todo-styles.css" />
+    </head>
+    <body>
+        <h1>todos</h1>
+        <small>
+            <u> Left Click</u> to toggle todo as completed.<br />
+            <u>Right Click</u> to delete todos
+        </small>
+        <form id="myform">
+            <input
+                type="text"
+                class="input"
+                id="input"
+                placeholder="Enter your todos"
+                autocomplete="off"
+            /> 
+            <ul class="todos" id="todo-list"></ul>
+        </form>
+        <script src="to-do-list-generator.js"></script>
+    </body>
+</html>
